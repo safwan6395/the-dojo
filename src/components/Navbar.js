@@ -1,7 +1,8 @@
-// styles
+import { Link } from "react-router-dom";
+
+// styles & images
 import "./Navbar.css";
 import temple from "../assets/temple.svg";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
