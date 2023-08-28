@@ -4,7 +4,7 @@ import { useCollection } from "../../hooks/useCollection";
 // styles
 import "./Dashboard.css";
 
-function Dashboard() {
+export default function Dashboard() {
   const { documents, error } = useCollection('projects');
 
   return (
@@ -15,4 +15,4 @@ function Dashboard() {
     </div>
   );
 }
-export default Dashboard;
+
