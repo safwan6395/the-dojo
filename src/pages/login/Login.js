@@ -39,7 +39,7 @@ function Login() {
       {!isPending && <button className='btn'>Login</button>}
       {isPending && (
         <button className='btn' disabled>
-          Loading...
+          Logining in...
         </button>
       )}
       {error && <div className='error'>{error}</div>}

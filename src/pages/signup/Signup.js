@@ -73,7 +73,7 @@ function Signup() {
         {thumbnailError && <div className='error'>{thumbnailError}</div>}
       </label>
       {!isPending && <button className='btn'>Sign up</button>}
-      {isPending && <button className='btn' disabled>Loading...</button>}
+      {isPending && <button className='btn' disabled>Signing up...</button>}
       {error && <div className='error'>{error}</div>}
     </form>
   );
